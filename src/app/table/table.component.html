@@ -1,0 +1,22 @@
+<table class="unstyledTable" id="reposTable">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Language</th>
+      <th>Default Branch</th>
+      <th>Git Url</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let repo of repos; let i = index">
+      <td>{{ i }}</td>
+      <td>{{ repo['name'] }}</td>
+      <td>{{ repo['description'] }}</td>
+      <td>{{ repo['language'] }}</td>
+      <td>{{ repo['default_branch'] }}</td>
+      <td>{{ repo['git_url'] }}</td>
+    </tr>
+  </tbody>
+</table>

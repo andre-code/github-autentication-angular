@@ -1,0 +1,19 @@
+table.unstyledTable {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border: 1px solid #DA9DB1;
+  font-size: 12px;
+  border-collapse: collapse;
+}
+table.unstyledTable td, table.unstyledTable th {
+  border: 1px solid #DA9DB1;
+  padding: 5px;
+}
+table.unstyledTable thead {
+  background: #DA9DB1;
+}
+table.unstyledTable thead th {
+  font-weight: normal;
+}
+table.unstyledTable tfoot {
+  font-weight: bold;
+}
